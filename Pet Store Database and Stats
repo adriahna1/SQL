@@ -1,0 +1,20 @@
+This is my store database where I have described each piece of code (first I created a store database, then displayed the database ordered by price).
+
+create table PETS (id INTEGER primary key, Animal text, Price integer, Color text, Location text, Quantity integer);
+
+insert into pets values(1, "Puppies", 100, "black", "cats_and_dogs", 5);
+insert into pets values(2, "Parrots", 50, "rainbow", "birds", 10);
+insert into pets values(3, "Snakes", 75, "green", "reptiles", 6);
+insert into pets values(4, "Kittens", 80, "white", "cats_and_dogs", 4);
+insert into pets values (5, "Hamsters", 15, "brown", "small_animals", 12);
+insert into pets values(6, "Unicorns", 7000, "white", "magical_creatures", 1);
+insert into pets values(7, "Dragons", 10000, "gold", "magical_creatures", 0);
+insert into pets values(8, "Rats", 30, "black_and_white", "small_animals", 4);
+insert into pets values(9, "Bunnies", 40, "millenial_gray", "small_animals", 8);
+insert into pets values(10, "Goldfish", 5, "gold", "aquatic_animals", 100);
+insert into pets values(11, "Goats", 75, "brown", "farm_animals", 6);
+insert into pets values(12, "Horses", 2000, "silver", "farm_animals", 4);
+insert into pets values(13, "Turtles", 40, "green", "reptiles", 3);
+insert into pets values(14, "Piranhas", 60, "red", "aquatic_animals", 15);
+insert into pets values(15, "Sugar_gliders", 100, "gray", "small_animals", 3);
+SELECT * FROM PETS where price >100 order by price;
